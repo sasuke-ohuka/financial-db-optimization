@@ -1,0 +1,31 @@
+Financial Database Optimization
+
+A project aimed at improving the performance and efficiency of relational databases used in financial operations.
+
+Objectives
+
+Reduce slow query time and data access latency
+
+Normalize database structures
+
+Apply indexing to speed up data retrieval
+
+Tools Used
+
+SQL Server
+
+Excel (for benchmarking)
+
+Visual Paradigm (ERD modeling)
+
+Features
+
+Rewritten complex queries for optimization
+
+Added indexes on high-use fields
+
+Refactored tables to meet 3rd Normal Form (3NF)
+
+Sample SQL Snippet
+
+"CREATE INDEX idx_client_date ON transactions(client_id, transaction_date);"
